@@ -4,13 +4,15 @@
 // that code so it'll be compiled.
 
 require("jquery");
-require("bootstrap");
+// require("bootstrap");
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-import "../src/style.scss";
+// @link https://medium.com/@guilhermepejon/how-to-install-bootstrap-4-3-in-a-rails-6-app-using-webpack-9eae7a6e2832
+import './bootstrap_custom.js'
+import '../stylesheets/application.scss'
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
