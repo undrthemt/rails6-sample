@@ -37,8 +37,11 @@ gem 'grape-swagger-entity'
 gem 'grape-swagger-rails'
 gem 'grape_logging'
 # swagger
-gem 'swagger-blocks'
-gem 'swagger_ui_engine'
+# @note asset:precompile で
+# NoMethodError: undefined method `start_with?' for /\.(?:svg|eot|woff|ttf)$/:Regexp
+# エラーになるので一旦コメントアウト
+# gem 'swagger-blocks'
+# gem 'swagger_ui_engine'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

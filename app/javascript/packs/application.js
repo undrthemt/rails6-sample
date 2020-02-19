@@ -1,10 +1,18 @@
+/**
+ * @note webpackのアセットコンパイル用
+ * @link https://techracho.bpsinc.jp/hachi8833/2020_01_16/85940
+ * Webpackerのデフォルト設定では以下が指定されます。
+ *
+ * 自分のJavaScript pack（つまりapplication.js）はapp/javascript/packs/の下に置かれること
+ * ビューでJavaScript packをインクルードするにはjavascript_pack_tag '<pack名>'を使う（例: <%= javascript_pack_tag 'my_app' %>はapp/javascript/packs/my_app.jsをインクルードする）
+ */
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
 require("jquery");
-// require("bootstrap");
+// require("bootstrap"); // bootstrap_custom.js を使います
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
