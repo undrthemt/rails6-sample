@@ -64,4 +64,6 @@ Rails.application.configure do
 
   config.hosts << "localhost"
   config.web_console.whitelisted_ips = '0.0.0.0/0'
+
+  config.webpacker.check_yarn_integrity = false
 end
