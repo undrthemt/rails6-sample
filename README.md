@@ -55,3 +55,8 @@ bundle exec rails webpacker:install
 yarn install --check-files
 ```
 
+## webpacker と sprockets
+* Rails6で導入された webpacker と、既存の sprockets について以下は必読です
+* https://techracho.bpsinc.jp/hachi8833/2019_11_28/83678
+* https://techracho.bpsinc.jp/hachi8833/2020_01_16/85940
+* https://techracho.bpsinc.jp/hachi8833/2020_01_17/85943
